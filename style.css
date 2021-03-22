@@ -4,16 +4,95 @@ body {
 
 .container {
     width: 100%;
+    margin-left: 40px;
   }
 
 .top {
     display: flex;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+nav ul {
+    padding-left: 0;
 }
 
 ul li {
     display: inline;
-    padding-left: 5px;
-    padding-right: 5px;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
 }
 
+.mini-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr;
+    border: 1px solid red;
+    column-gap: 25px;
+}
+
+.side-images {
+    border: 1px solid red;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.main-image {
+    border: 1px solid blue;   
+}
+
+.pdt-img {
+    height: 120vh;
+    width: 50vw;
+}
+
+
+.pdt-info {
+
+    border: 1px solid yellow;
+}
+
+.pdt-name {
+
+}
+
+.fas fa-star {
+
+}
+
+.fas fa-star-half {
+
+}
+
+.reviews {
+
+}
+
+.shipping {
+
+}
+
+.shipping-spn {
+
+}
+
+.pdt-price {
+
+}
+
+.pdt-price-spn {
+
+}
+
+.current-colour {
+
+}
+
+.current-colour-spn {
+
+}
+
+.swatch-img {
+    border: 3px solid blue;
+    border-radius: 50px;
+    max-width: 30px;
+    min-height: 30px;
+}
