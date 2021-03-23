@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .container {
-    width: 100%;
+    width: 97%;
     margin-left: 40px;
   }
 
@@ -24,7 +25,7 @@ ul li {
 
 .mini-container {
     display: grid;
-    grid-template-columns: 1fr 5fr 4fr;
+    grid-template-columns: 1fr 5fr 3fr;
     border: 1px solid red;
     column-gap: 25px;
 }
@@ -41,7 +42,7 @@ ul li {
 
 .pdt-img {
     height: 120vh;
-    width: 50vw;
+    width: 60vw;
 }
 
 
@@ -93,6 +94,145 @@ ul li {
 .swatch-img {
     border: 3px solid blue;
     border-radius: 50px;
-    max-width: 30px;
-    min-height: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.size {
+
+}
+
+.size-spn {
+
+}
+
+.size-spn-link {
+
+}
+
+.swatch-size {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.swatch-size-detail {
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.bottom-half {
+
+}
+
+.item-qnty {
+
+}
+
+.item-qnty-dse {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 20px;
+}
+
+input {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+.item-qnty-inse {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 20px;
+}
+
+.pdt-btns {
+
+}
+
+.add-to-bag {
+    display: block;
+    width: 100%;
+    height: 5em;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.add-to-bag-spn {
+    text-align: center;
+}
+
+.buy-online {
+    display: block;
+    width: 100%;
+    height: 5em;
+    cursor: pointer;
+}
+
+.buy-online-spn {
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.get-it-today-spn {
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.ssd-availability {
+    margin-top: 30px;
+}
+
+.ssd-availability p {
+    text-align: center;
+}
+
+.sdd-link {
+
+}
+
+.payment-options {
+    display: flex;
+    justify-content: center;
+}
+
+.options {
+    display: inline;
+    margin: 2px;
+}
+
+.paypal-img {
+    width: 70px;
+    height: 25px;
+}
+
+.amazon-img {
+    width: 70px;
+    height: 25px;
+}
+
+.applepay-img {
+    width: 35px;
+    height: 25px;
+}
+
+.terms-and-conds {
+    display: block;
+}
+
+.or-payments {
+    text-align: center;
+}
+
+.afterpay-img {
+   width: 70px;
+   height: 25px; 
+   /* margin-top: 20px; */
 }
