@@ -15,18 +15,17 @@ body {
 
 nav ul {
   padding-left: 0;
+  /* border: 1px solid blue; */
+  margin-left: 25px;
 }
 
-nav ul li {
+.navbar ul li {
   display: inline;
   /* border: 1px solid blue; */
 }
 
-
-
 .navbar-link {
   text-decoration: none;
-  font-family: Helvetica;
   color: #1c2280;
   font-weight: 400;
   font-family: Calibri;
@@ -34,9 +33,11 @@ nav ul li {
 }
 
 .fa-greater-than {
-    font-size: 10px;
+  font-size: 10px;
+  color: #1c2280;  
 }
-.mini-container {
+
+.sub-container {
   display: grid;
   grid-template-columns: 1fr 5fr 3fr;
   /* border: 1px solid red; */
@@ -49,9 +50,12 @@ nav ul li {
   padding-right: 25px;
 }
 
-.main-image {
-  /* border: 1px solid blue; */
+.side-images img {
+  cursor: pointer;
 }
+
+/* .main-image {
+} */
 
 .pdt-img {
   height: 130vh;
@@ -59,60 +63,59 @@ nav ul li {
 }
 
 .pdt-info .pdt-name {
-    color: #1c2280;
-    font-family: Calibri;
-    font-size: 30px;
-    margin-top: 0;
+  color: #1c2280;
+  font-family: Calibri;
+  font-size: 30px;
+  margin-top: 0;
 }
 
 .fa-star {
-    color: #6a71d3;
-    font-size: 20px;
+  color: #6a71d3;
+  font-size: 20px;
 }
 
 .fa-star-half {
-    color: #6a71d3;
-    font-style: 20px;
+  color: #6a71d3;
+  font-style: 20px;
 }
 
 .reviews {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.6);
-
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .shipping {
-    color: #f12525;
-    font-family: Calibri;
-    font-weight: 500;
-    font-size: 20px;
+  color: #f12525;
+  font-family: Calibri;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .shipping-spn {
-    color: rgba(0, 0, 0, 0.6);
-    font-weight: lighter;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: lighter;
 }
 
 .pdt-price {
-    color: #f12525;
-    font-family: Calibri;
-    font-weight: 500;
-    font-size: 20px;
+  color: #f12525;
+  font-family: Calibri;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .pdt-price-spn {
-    font-size: 13px;
-    text-decoration: line-through;
-    color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .current-colour {
-    font-weight: 400;
-    font-family: Calibri;
+  font-weight: 400;
+  font-family: Calibri;
 }
 
 .current-colour-spn {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .swatch-img {
@@ -123,16 +126,17 @@ nav ul li {
 }
 
 .size {
-    font-weight: 400;
-    font-family: Calibri;
+  font-weight: 400;
+  font-family: Calibri;
 }
 
 .size-spn {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .size-spn-link {
-    padding-left: 30px;
+  padding-left: 30px;
+  color: #000;
 }
 
 .swatch-size {
@@ -152,16 +156,17 @@ nav ul li {
 }
 
 .swatch-size-detail a {
-    text-decoration: none;
-} 
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
 
 /* .bottom-half {
 
 } */
 
 .item-qnty {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .item-qnty-dse {
@@ -200,6 +205,10 @@ input {
   outline: none;
 }
 
+.add-to-bag:active {
+  transform: translateY(2px);
+}
+
 .add-to-bag-spn {
   text-align: center;
   color: #fff;
@@ -213,6 +222,11 @@ input {
   height: 5em;
   cursor: pointer;
   border: 1px solid #1c2280;
+  outline: none;
+}
+
+.buy-online:active {
+  transform: translateY(2px);
 }
 
 .buy-online-spn {
@@ -230,11 +244,6 @@ input {
   /* border: 1px solid red; */
 }
 
-.get-it-link {
-    color: #6a71d3;
-
-}
-
 .ssd-availability {
   margin-top: 30px;
 }
@@ -249,8 +258,8 @@ input {
 }
 
 .sdd-link {
-    font-weight: lighter;
-    color: #6a71d3;
+  font-weight: lighter;
+  color: #6a71d3;
 }
 
 .payment-options {
@@ -293,12 +302,12 @@ input {
 }
 
 .question {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.options-wishlist {
-  /* border: 1px solid red; */
-}
+/* .options-wishlist {
+
+} */
 .options-wishlist ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -310,6 +319,7 @@ input {
 .options-wishlist ul li a {
   text-decoration: none;
 }
+
 /* 
 .gift {
 } */
