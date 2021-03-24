@@ -337,13 +337,7 @@ input {
 
 /*-------------------------------------------------------------------------------------------------*/
 
-body {
-  margin: 0;
-  overflow-x: hidden;
-}
-
 .container-2 {
-  justify-content: center;
   width: 40%;
   /* border: 1px solid green; */
   margin-left: 33%;
@@ -351,6 +345,7 @@ body {
   top: 0;
   right: 0;
   background-color: whitesmoke;
+  /* visibility: hidden; */
 }
 
 .sub-container-2 {
@@ -368,6 +363,16 @@ body {
   text-align: center;
   color: #fff;
   font-family: Calibri;
+}
+
+#cancel {
+  cursor: pointer;
+}
+
+.title a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
 }
 
 .image-2 img {
