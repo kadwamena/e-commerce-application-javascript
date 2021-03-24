@@ -334,3 +334,146 @@ input {
 .wish-link {
   color: #1c2280;
 }
+
+/*-------------------------------------------------------------------------------------------------*/
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container-2 {
+  justify-content: center;
+  width: 40%;
+  /* border: 1px solid green; */
+  margin-left: 33%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: whitesmoke;
+}
+
+.sub-container-2 {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr 2fr;
+  row-gap: 10px;
+  /* border: 1px solid red; */
+  height: 100vh;
+}
+
+.sub-container-2 .title {
+  width: 32vw;
+  background-color: #1c2280;
+  /* border: 1px solid red; */
+  text-align: center;
+  color: #fff;
+  font-family: Calibri;
+}
+
+.image-2 img {
+  width: 15vw;
+  height: 30vh;
+}
+
+/* .img-div {
+  display: inline;
+} */
+
+.item-info {
+  /* border: 1px solid red; */
+  font-family: Calibri;
+  padding-left: 19px;
+}
+
+.item-name {
+  color: #1c2280;
+}
+
+.item-info .item-price {
+  color: #f12525
+}
+
+.item-info span {
+  text-decoration: line-through;
+  font-size: 15px;
+  color: #1c2280;
+  padding: 5px;
+}
+
+.item-info .underline {
+  text-decoration: underline;
+}
+
+.item-info p {
+color: #1c2280;
+}
+
+.sub-container-2 .image-2 {
+  display: flex;
+  /* border: 1px solid blue; */
+}
+
+.confirmation-total {
+  /* border: 1px solid red; */
+  width: 32vw;
+}
+
+.buttons {
+  /* border: 1px solid red; */
+  width: 32vw;
+}
+
+.confirmation-total .subtotal {
+  color: #1c2280;
+}
+
+.confirmation-total span {
+  padding-left: 14em;
+  color: #1c2280;
+}
+
+.confirmation-total .loader {
+  background-color: #049b43;
+  height: 8px;
+  border-radius: 5px;
+}
+
+.confirmation-total p {
+  color: #1c2280;
+}
+
+.checkout-btn {
+  display: block;
+  text-align: center;
+  background-color: #1c2280;
+  width: 32vw;
+  height: 10vh;
+  font-family: Calibri;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 7px;
+  outline: none;
+}
+
+.checkout-btn:active {
+  transform: translateY(2px);
+}
+
+.continue-btn {
+  display: block;
+  text-align: center;
+  background-color: #1c2280;
+  width: 32vw;
+  height: 10vh;
+  font-family: Calibri;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  outline: none;
+}
+
+.continue-btn:active {
+  transform: translateY(2px);
+}
+
