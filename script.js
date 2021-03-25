@@ -1,6 +1,5 @@
 
 $(document).ready(function(){
-
     $(".add-to-bag").on("click", ()=>{
         $("#container").css("visibility", "visible")
     })
